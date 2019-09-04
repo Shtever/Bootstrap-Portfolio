@@ -39,15 +39,20 @@ body {
   #logo:hover,
   input[type=submit]:hover {
     background: #5e7f7e;
+    transition-duration: 1s;
   }
   
   nav a:hover {
     color: #5e7f7e;
+    transition-duration: 1s;
+
   }
   
   .social:hover {
     cursor: pointer;
     opacity: 0.8;
+    transition-duration: 1s;
+
   }
   
   /* end hover styling */
@@ -59,6 +64,8 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    transition-duration: 1s;
+
   }
   
   h1,
@@ -117,11 +124,15 @@ body {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+    transition-duration: 1s;
   }
   
   nav {
     float: right;
     margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition-duration: 1s;
   }
   
   nav a {
@@ -132,10 +143,12 @@ body {
     color: #999;
     text-decoration: none;
     border-left: 1px solid #efefef;
+    transition-duration: 1s;
   }
   
   nav a:first-child {
     border-left: 0 none;
+    transition-duration: 1s;
   }
   
   /* footer */
@@ -149,6 +162,7 @@ body {
     text-align: center;
     background: #666;
     border-top: 8px solid #4aaaa5;
+    transition-duration: 1s;
   }
   
   /* sidebar */
@@ -161,6 +175,7 @@ body {
     margin-bottom: 20px;
     background: #fff;
     border: 1px solid #ddd;
+    transition-duration: 1s;
   }
   
   h3,
@@ -169,6 +184,7 @@ body {
     margin-bottom: 15px;
     line-height: 22px;
     border-bottom: 2px solid #eee;
+    transition-duration: 1s;
   }
   
   .social {
@@ -176,10 +192,12 @@ body {
     height: 62px;
     margin-top: 8px;
     margin-right: 5px;
+    transition-duration: 1s;
   }
   
   .social:last-child {
     margin-right: 0;
+    transition-duration: 1s;
   }
   
   /* main */
@@ -196,11 +214,13 @@ body {
     margin: 0 0 40px;
     background: #fff;
     border: 1px solid #ddd;
+    transition-duration: 1s;
   }
 
   .auth-image {
     float: left;
     width: 100%;
+    transition-duration: 1s;
   }
   
   
