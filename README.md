@@ -1,7 +1,7 @@
 # Bootstrap-Portfolio
 Bootstrap Portfolio
 
-This is an assignment in which we are tasked with implementing various Bootstrap elements into our portfolios. 
+This is an assignment in which we are tasked with implementing various Bootstrap elements into our portfolios, as well as creating a responsive layout using grids (rows & columns). This was done with no media queries in the stylesheets.
 
 
 
@@ -13,8 +13,6 @@ Using Bootstrap, recreate portfolio site with the following items:
 
  -A navbar
  -A responsive layout (remember the grid, rows and columns are your friends)
-
-<!-- eg. On an xs screen, content should take up the entire screen. On sm and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action! -->
 
 Responsive images
 
