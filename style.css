@@ -264,6 +264,12 @@ body {
     margin-top: 10px;
     margin-right: 25px;
   }
+
+  .thumb {
+    flex: 0 0 100%;
+    max-width: 100%;
+
+  }
   
   /* contact page */
   
@@ -304,6 +310,3 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-
-  /* Responsive Layout */
-  
