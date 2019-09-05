@@ -8,7 +8,7 @@ body {
    
   * {
     box-sizing: border-box;
-    margin: 0;
+    margin: auto;
   }
   
   /* sticky footer styling */
@@ -63,7 +63,7 @@ body {
   .container {
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;
+    margin: auto;
     clear: both;
     transition-duration: 1s;
 
@@ -74,6 +74,7 @@ body {
   h3,
   p {
     margin-bottom: 20px;
+    margin-left: 0;
   }
   
   p:last-child {
@@ -104,6 +105,7 @@ body {
   
   #masthead {
     position: fixed;
+    max-width: 960px;
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
@@ -118,7 +120,7 @@ body {
     width: 250px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 90px;
     color: #fff;
@@ -126,23 +128,23 @@ body {
     text-decoration: none;
     background: #4aaaa5;
     transition-duration: 1s;
+    width: 100%;
   }
   
   nav {
     float: right;
-    margin-top: 25px;
-    margin-right: 20px;
-    margin-left: 20px;
-    transition-duration: 1s;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    transition-duration: .3s;
   }
   
   nav a {
     display: inline-block;
     padding-left: 15px;
-    margin-left: 15px;
     line-height: 18px;
     color: #999;
-    text-decoration: none;
+    font-size: auto;
     border-left: 1px solid #efefef;
     transition-duration: 1s;
   }
@@ -205,13 +207,13 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 130px;
+    padding-top: 10px;
   }
   
   .main-section {
     float: left;
     width: 100%;
-    max-width: 650px;
+    max-width: 100%;
     padding: 30px;
     margin: 0 0 40px;
     background: #fff;
@@ -224,32 +226,24 @@ body {
     width: 100%;
     transition-duration: 1s;
   }
+
   
   
   /* Portfolio */
   .work {
+    box-sizing: border-box;
     position: relative;
-    float: left;
-    width: 274px;
-    margin: 20px 0 25px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
     overflow: auto;
   }
-  
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
-  
-  .work img {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
-  }
+
   
   .work h3 {
     position: absolute;
     bottom: 20px;
     width: 100%;
-    padding: 15px;
     margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
@@ -257,22 +251,14 @@ body {
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
-  }
-  
-  .auth-image {
-    float: left;
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
+    margin: 0;
   }
 
   .thumb {
-    flex: 0 0 100%;
-    max-width: 100%;
-
+    float: left;
+    width: 100%;
   }
-  
+
   /* contact page */
   
   #contact-form ul {
@@ -312,3 +298,7 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  .info {
+    padding-bottom: 10px;
+      }
