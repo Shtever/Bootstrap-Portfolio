@@ -4,12 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact | Steve McMillen</title>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" type="text/css" href="style.css">
-</head> 
+
+</head>
 
 <body>
 
@@ -20,14 +35,48 @@
       <a href="index.html">About</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="contact.html">Contact</a>
-    </nav> 
+    </nav>
   </div>
-</header>
+  </header>
 
-  <div id="main-container" class="container">
+  <div id="main-container" class="container card-area">
     <section class="main-section">
       <h1>Contact</h1>
+      <hr>
 
+      <div class="card" style="width: 33%;">
+        <img src="Assets/images/github.png" class="card-img-top " alt="Github">
+        <div class="card-body">
+          <a href="https://github.com/Shtever" target="_blank">
+            <h5 class="card-header">Github</h5>
+          </a>
+          <p class="card-text">Repositories</p>
+
+        </div>
+      </div>
+
+      <div class="card" style="width: 33%;">
+        <img src="Assets/images/Linkedin.png" class="card-img-top " alt="Github">
+        <div class="card-body">
+          <a href="https://www.linkedin.com/in/stephen-mcmillen-9b85a4b9/" target="_blank">
+            <h5 class="card-header">LinkedIn</h5>
+          </a>
+          <p class="card-text">Professional Info</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 33%;">
+        <img src="Assets/images/Direct-Sign.png" class="card-img-top " alt="Github">
+        <div class="card-body">
+          <a href="mailto:stephengmcmillen@gmail.com" target="_blank">
+            <h5 class="card-header">Email Me</h5>
+          </a>
+          <p class="card-text"><strong>Phone:</strong> 760-851-9267</p>
+        </div>
+      </div>
+
+
+      <!-- ===================REVISE TO PUSH TO FIREBASE=====================
       <form id="contact-form">
         <ul>
           <li>
@@ -44,7 +93,7 @@
           </li>
         </ul>
         <input type="submit">
-      </form>
+      </form> -->
 
     </section>
 
@@ -52,7 +101,7 @@
 
   <footer>
     <div class="container">
-      Copyright &copy; 
+      Copyright &copy;
     </div>
   </footer>
 </body>
