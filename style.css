@@ -15,10 +15,6 @@ body {
   margin: auto;
 }
 
-/* sticky footer styling */
-
-/* https://css-tricks.com/snippets/css/sticky-footer/ */
-
 html, body {
   height: 100%;
 }
@@ -327,4 +323,8 @@ h4 {
   text-align: center;
   color: #4aaaa5;
   font-size: large;
+}
+
+.row-title {
+  text-align: center;
 }
