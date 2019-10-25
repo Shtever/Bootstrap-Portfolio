@@ -4,7 +4,7 @@ body {
   line-height: 1.2;
   color: #777;
   font-family: 'Permanent Marker', cursive;
-  background-color: lightslategray;
+  background-color: black;
   margin: auto;
   margin-top: 0;
   transition-duration: .5s;
@@ -31,17 +31,18 @@ footer, .push {
   bottom: 0;
 }
 
-/* end sticky footer styling */
-
-/* start hover styling */
-
 #logo:hover, input[type=submit]:hover {
-  background: #5e7f7e;
+  background: hotpink;
   transition-duration: 1s;
 }
 
 nav a:hover {
-  color: #5e7f7e;
+  color: hotpink;
+  transition-duration: 1s;
+}
+
+.banner:hover {
+  color: hotpink;
   transition-duration: 1s;
 }
 
@@ -206,7 +207,7 @@ h3, .sidebar h2 {
   padding: 30px;
   padding-top: 0;
   margin: 0 0 40px;
-  background: #fff;
+  background: slategray;
   border: 1px solid #ddd;
   transition-duration: 1s;
 }
@@ -216,6 +217,14 @@ h3, .sidebar h2 {
   width: 100%;
   size: auto;
   transition-duration: 1s;
+}
+
+.auth-image:hover {
+  float: left;
+  width: 100%;
+  size: auto;
+  filter: blur(1vw);
+  transition-duration: .5s;
 }
 
 /* Portfolio */
@@ -327,4 +336,31 @@ h4 {
 
 .row-title {
   text-align: center;
+  color: hotpink;
+}
+
+p {
+  color: seashell;
+}
+
+h3 {
+  color: hotpink;
+}
+
+#resume {
+  color: hotpink;
+  transition-duration: .5s;
+}
+
+#resume:hover {
+  filter: blur(3px);
+  transition-duration: .5s;
+}
+
+.card-text, .card-header {
+  color: hotpink;
+}
+
+.card {
+  background-color: rgb(90, 120, 140);
 }
